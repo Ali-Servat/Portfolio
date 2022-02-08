@@ -1,0 +1,29 @@
+@font-face {
+     font-family: 'tanha';
+     src: url(../public/Assets/fonts/Shabnam.woff) format('woff');
+}
+
+html body {
+     font-family: 'tanha';
+}
+
+/* scroll */
+.scroll {
+     position: fixed;
+     bottom: 15px;
+     left: 15px;
+}
+.scroll button {
+     border: 0;
+     color: white;
+     background-color: coral;
+     border-radius: 50%;
+}
+/* card */
+.card a {
+     text-decoration: none;
+     color: coral;
+}
+.card h5 {
+     height: 80%;
+}

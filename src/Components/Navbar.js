@@ -1,6 +1,6 @@
 const Navbar = () => {
      return (
-          <nav className="navbar navbar-expand navbar-dark bg-success">
+          <nav className="navbar navbar-expand-sm navbar-dark bg-success position-sticky top-0">
                <div className="container">
                     <a className="navbar-brand fw-bolder" href="#">
                          علی ثروت
@@ -27,6 +27,11 @@ const Navbar = () => {
                               <li className="nav-item">
                                    <a className="nav-link" href="#projects">
                                         نمونه کار
+                                   </a>
+                              </li>
+                              <li className="nav-item">
+                                   <a className="nav-link" href="#contact">
+                                        تماس با من{' '}
                                    </a>
                               </li>
                          </ul>

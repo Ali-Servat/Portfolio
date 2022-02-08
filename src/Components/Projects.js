@@ -2,7 +2,7 @@ import projects from '../Projects-data';
 
 const Projects = () => {
      return (
-          <div className="container" id="projects">
+          <div className="container mb-4" id="projects">
                <h2 className="mb-4">نمونه کار</h2>
                <div className="cards container">
                     <div className="row">
@@ -12,10 +12,7 @@ const Projects = () => {
                                         key={project.key}
                                         className="col-12 col-md-4 g-2"
                                    >
-                                        <div
-                                             className="card "
-                                             style={{ height: '100%' }}
-                                        >
+                                        <div className="card pt-4 border-success">
                                              <h5 className="card-title text-center">
                                                   {project.title}
                                              </h5>

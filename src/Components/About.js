@@ -10,11 +10,11 @@ const About = () => {
                </p>
                <p>مهارت های من:</p>
                <ul>
-                    <li>تسلط خوب به زبان انگلیسی</li>
-                    <li>آشنایی با HTML, CSS, JavaScript</li>
-                    <li>آشنایی با Bootstrap</li>
-                    <li>آشنایی با Git, Github</li>
-                    <li>آشنایی با React</li>
+                    <li className="lh-lg">تسلط خوب به زبان انگلیسی</li>
+                    <li className="lh-lg">آشنایی با HTML, CSS, JavaScript</li>
+                    <li className="lh-lg">آشنایی با Bootstrap</li>
+                    <li className="lh-lg">آشنایی با Git, Github</li>
+                    <li className="lh-lg">آشنایی با React</li>
                </ul>
           </div>
      );
