@@ -21,7 +21,7 @@ const projects = [
           id: 4,
           title: 'ماشین حساب (JavaScript)',
           asset: '',
-          link: '',
+          link: 'https://ali-servat.github.io/Calculator/',
      },
      {
           id: 5,
