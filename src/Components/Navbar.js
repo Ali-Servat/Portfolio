@@ -2,7 +2,7 @@ const Navbar = () => {
      return (
           <nav className="navbar navbar-expand-sm navbar-dark bg-success position-sticky top-0">
                <div className="container">
-                    <a className="navbar-brand fw-bolder" href="#">
+                    <a className="navbar-brand fw-bolder" href="">
                          علی ثروت
                     </a>
                     <button

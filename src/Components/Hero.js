@@ -4,18 +4,15 @@ const Hero = () => {
                <div className="row justify-content-center">
                     <div className="col-md-5 d-flex align-items-center justify-content-center">
                          <h1>
-                              <span
-                                   className="d-inline-block text-center"
-                                   style={{ color: 'coral' }}
-                              >
-                                   توسعه فرانت اند وب
+                              <span className="d-inline-block text-center">
+                                   توسعه دهنده
                               </span>{' '}
                               <br />
                               <span
                                    className="display-6 text-center"
-                                   style={{ display: 'block' }}
+                                   style={{ display: 'block', color: 'coral' }}
                               >
-                                   (و به زودی بک اند)
+                                   Front-End
                               </span>
                          </h1>
                     </div>
